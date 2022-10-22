@@ -67,7 +67,7 @@ padding-top: 6px;
 display: flex;
 align-items: center;
 justify-content: space-between;
-width: 100%;
+
 }
 .menu__navlist{
 display: flex;
@@ -251,6 +251,9 @@ padding-bottom:20px ;
 
 
 }
+.maps{
+max-width: 100%;
+}
 .map{
 display: flex;
 justify-content: center;
@@ -265,8 +268,7 @@ display: flex;
 align-items: center;
 justify-content: space-between;
 padding-top: 30px;
-padding-left: 245px;
-padding-right: 245px;
+
 }
 .foot__list{
 padding-top: 92px;
@@ -290,7 +292,7 @@ padding: 30px 0;
 .cook{
     background: url(../img/cook.jpg) no-repeat center;
     height: 400px;
-    width: 1110px;
+
     margin-bottom: 30px;
     display: flex;
     align-items: center;
@@ -302,4 +304,96 @@ padding: 30px 0;
     line-height: 25px;
     text-align: justify;
     color: #fff;
+}
+@media screen and (max-width:1440px) {
+    .burger{
+        padding-top: 0px;
+    }.map{
+    max-width: 100%;
+    }
+
+}
+@media screen and (max-width:1024px) {
+    .map{
+    max-width: 100%;
+    }
+    .cards{
+    justify-content: center;
+    align-items: center;
+    }
+    .menufast{
+        padding-left: 126px;
+    }
+}
+@media screen and (max-width:768px) {
+    .cards{
+    gap: 15px;
+    }
+    .card__burg{
+        max-width: 355px;
+    }
+    h1{
+    font-size: 54px;
+    }
+    h3{
+    font-size: 36px;
+    }
+.burger__p{
+    font-size: 16px;
+}
+.burg__p{
+font-size: 36px;
+}
+.burg__btn{
+font-size: 16px;
+}
+
+}
+
+@media screen and (max-width:425px) {
+    .nav{
+    flex-direction: column;
+    gap: 10px;
+    }
+    .nav__wrap{
+        flex-direction: column;
+    }
+    .menu__navlink{
+    font-size: 14px;
+    }
+    h1{
+        font-size: 30px;
+        }
+        h3{
+        font-size: 25px;
+        }
+    .burger__p{
+        font-size: 13px;
+    }
+    .burg__p{
+    font-size: 36px;
+    }
+    .burg__btn{
+    font-size: 16px;
+    }
+    .j__burg{
+    padding-top: 10px;
+    }
+.burg__p{
+padding: 24px 52px;
+}
+.burg__btn{
+    padding: 14px 47px;
+}
+ .menufast{
+padding-left: 27px;
+ }   
+}
+@media screen and (max-width:375px) {
+    .burg__p{
+        padding: 17px 26px;
+        }
+        .burg__btn{
+            padding: 11px 35px;
+        }
 }
